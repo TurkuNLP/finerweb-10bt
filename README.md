@@ -1,4 +1,4 @@
-```markdown
+
 # FinerWeb-10BT
 
 Code for paper "FinerWeb-10BT: Refining Web Data with LLM-Based Line-Level Filtering". This repository contains tools for cleaning web data line by line using LLMs and training language models on the filtered data.
