@@ -32,7 +32,7 @@ python run.py --train --base_model "microsoft/deberta-v3-base"
 #### Create Platt Scaler
 Calibrate model probabilities:
 ```bash
-python run.py --finetuned_model_path "finetuned_microsoft_deberta-v3-base" \
+python run.py --finetuned_model_path FINETUNED_MODEL_PATH \
               --base_model "microsoft/deberta-v3-base" --platt
 ```
 
@@ -48,8 +48,8 @@ Prepare data for GPT-2 training:
 ```bash
 cd GPT2/scripts
 python tokenize_documents_parallel_exquisiteweb.py \
-    --dataset_path "PATH_TO_FINERWEB-10BT" \
-    --local_dir "LOCAL_DIR" \
+    --dataset_path PATH_TO_FINERWEB-10BT \
+    --local_dir LOCAL_DIR \
     --quality_threshold QUALITY_THRESHOLD
 ```
 
