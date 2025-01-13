@@ -1,5 +1,3 @@
-Here's a polished version of your README.md in proper markdown format:
-
 ```markdown
 # FinerWeb-10BT
 
