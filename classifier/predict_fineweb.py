@@ -65,7 +65,7 @@ def predict(
 
 
 def run(model_name, model, tokenizer, label_encoder, target_class="clean"):
-    platt_scaler = joblib.load(f"platt_scaler_{model_name}.joblib")
+    platt_scaler = joblib.load(f"{model_name}/platt_scaler.joblib")
     model.half()
     model.eval()
     print(f"Using {torch.cuda.device_count()} GPUs")
