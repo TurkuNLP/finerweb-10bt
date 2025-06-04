@@ -76,7 +76,17 @@ https://huggingface.co/datasets/TurkuNLP/finerweb-10bt
 
 ## Citation
 
-[Coming soon]
+More details in the [paper](https://dspace.ut.ee/items/71fd1cd0-28c4-423c-8fe4-f66707b8ad62).
+
+If you use our work, please cite:
+
+@inproceedings{finerweb10bt, \
+    author = {Henriksson, Erik and Tarkka, Otto and Ginter, Filip}, \
+    title = {FinerWeb-10BT: Refining Web Data with LLM-Based Line-Level Filtering}, \
+    booktitle = {Proceedings of the Joint 25th Nordic Conference on Computational Linguistics and 11th Baltic Conference on Human Language Technologies (NoDaLiDa/Baltic-HLT 2025)}, \
+    year = {2025},\
+    url = {https://hdl.handle.net/10062/107218} \
+}
 
 ## License
 
